@@ -1,13 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>NUEVO CIFRADO CESAR</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+  <!-- Bienvenida-->
+  <h1>DATA ENCRYPTED</h1>
+  <h1>( "Small Code" )</h1><br>
+
+  <!-- Creando input de entrada, Ingresa un mesaje -->
+<div class="tabla"
+      <div class = "ingresotxt">
+        <h3>1. Ingresa un mensaje:</h3>
+        <textarea name ="mensaje" rows="20"cols="35" placeholder="ESCRIBE TU MENSAJE:" id="txt"></textarea>
+      </div>
+
+<!-- Creando input de desplazamento de caracteres-->
+    <div class  = "desplazamiento">
+    <br><br><br>  <h3>2. Elige un número</h3><br>
+       <input type="number"  id="caracteres" value="0" ></input>
+        </div>
+
+<!-- Creando botones Codificar/Descodificar-->
+        <div class="boton">
+      <br><br><br><br><br><br><br><br><br><br>  <h3>3. ¿Qué quieres hacer?</h3>
+        <button type="button" onclick="codificar()">Codificar</button>
+        <button type="button" onclick="descodificar()">Descodificar</button>
+      </div>
+
+    <!-- Creando input de salida-->
+    <div class="mostrar">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h3 id="salir">4. Aquí se mostrará  tu mensaje Cifrado/Descifrado:</h3>
+<p id="salir1"></p>
+</div>
+</div>
+  <script type="text/javascript"src="index.js">
+    </script>
   </body>
 </html>

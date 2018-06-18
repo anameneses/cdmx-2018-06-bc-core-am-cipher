@@ -1,0 +1,69 @@
+h1{
+  font-style:normal;
+  font-size:2em;
+  color:#000080;
+  text-align-last: center;
+  margin-bottom: 1%;
+}
+
+h3{
+  color: #000080;
+  font-weight:bolder;
+  font-family:sans-serif;
+  margin-top: 1%;
+}
+
+.tabla{
+  display:inline-table;
+  margin-left: 1%;
+}
+
+body{
+  background-color: #ADD8E6	;
+}
+
+.boton{
+  display: inline-table;
+}
+
+.desplazamiento{
+  display: inline-table;
+  margin-left: 2%;
+}
+
+.mostrar{
+  display: inline-table;
+  margin-left: 2%;
+}
+
+button{
+  color:#F0F8FF	;
+  background-color: #48D1CC ;
+  font-size:1.1em;
+}
+
+textarea{
+  background-image: url(http://s3-eu-west-1.amazonaws.com/hellosoda-www/wp-content/uploads/2017/10/23104022/reduce_fraud.gif);
+  background-position: center;
+  font-family: cursive;
+  height: 21.5em;
+  color: #000080;
+  font-weight: bold;
+  font-size: 118%;
+  border: 6px dashed #008080;
+}
+
+input{
+  border: 2px  dashed  #008080;
+  font-weight: bold;
+  height: 1.8em;
+  width: 45%;
+}
+
+#salir1{
+  text-align-last: center;
+  font-style: normal;
+  color:#008080;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
