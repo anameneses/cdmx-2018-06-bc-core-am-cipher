@@ -49,12 +49,12 @@ Este programa no necesitará ser instalado, tampoco requiere de algun programa e
 
 ## Pseudocodigo:
 
-1. El usuario deberá escribir un  mensaje (input) de texto "Escribe tu mensaje" 
+1. El usuario deberá escribir un  mensaje (input) de texto "Escribe tu mensaje." 
 2. El usuario deberá seleccionar el número de caracteres que desplazará su texto.
-3. El usuario deberá presionar el botón "Cifrar" al hacer esta acción el texto se convertira a Codigo Ascii
+3. El usuario deberá presionar el botón "Cifrar" al hacer esta acción el texto se convertira a Codigo Ascii.
 4. El texto cifrado será mostrado debajo del texto "Aqui se mostrará tu texto CIFRADO/DESCIFRADO.
 5. El resultado de este texto podrá ser copiado y pegado en la parte "Ingresa aqui un mensaje"
-6. El usuario deberá seleccionar el número de caracteres que desplazará su texto (clave de usuario original)
+6. El usuario deberá seleccionar el número de caracteres que desplazará su texto (clave de usuario original).
 7. El usuario deberá presionar el boton "Descifrar", lo cual le mostrará al usuario el mensaje original.
 8. El texto cifrado será mostrado debajo del texto "Aqui se mostrará tu texto CIFRADO/DESCIFRADO.
 
