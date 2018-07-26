@@ -2,41 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>NUEVO CIFRADO CESAR</title>
+    <title>CIFRADO CESAR</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <!-- Bienvenida-->
-  <h1>DATA ENCRYPTED</h1>
-  <h1>( "Small Code" )</h1><br>
+
+  <!-- Bienvenida--> 
+  <h1>"Small Code"</h1>
 
   <!-- Creando input de entrada, Ingresa un mesaje -->
-<div class="tabla"
-      <div class = "ingresotxt">
+  <div class="tabla">
+    <div class = "ingresotxt">
         <h3>1. Ingresa un mensaje:</h3>
-        <textarea name ="mensaje" rows="20"cols="35" placeholder="ESCRIBE TU MENSAJE:" id="txt"></textarea>
-      </div>
+        <textarea name ="mensaje" rows="20" cols="35" placeholder="ESCRIBE TU MENSAJE:" id="txt"></textarea>
+    </div>
+  </div>
+     
+  <!-- Creando input de desplazamento de caracteres-->
+  <div class  = "desplazamiento">
+      <h3>2. Elige un número</h3>
+      <input type="number"  id="caracteres" value="0" >
+  </div>   
 
-<!-- Creando input de desplazamento de caracteres-->
-    <div class  = "desplazamiento">
-      <h3>2. Elige un número</h3><br>
-       <input type="number"  id="caracteres" value="0" ></input>
-        </div>
-
-<!-- Creando botones Codificar/Descodificar-->
-        <div class="boton">
+  <!-- Creando botones Codificar/Descodificar-->
+  <div class="boton">
       <h3>3. ¿Qué quieres hacer?</h3>
-        <button id="codificando">Codificar</button>
-        <button id="descodificando">Descodificar</button>
-      </div>
+      <button id="codificando">Codificar</button>
+      <button id="descodificando">Descodificar</button>    
+  </div>
+           
+  <!-- Creando input de salida-->
+  <div class="mostrar">
+      <h3 id="salir">4. Aquí se mostrará  tu mensaje Cifrado/Descifrado:</h3>
+      <p id="salir1"></p>
+  </div>
 
-    <!-- Creando input de salida-->
-    <div class="mostrar">
-<h3 id="salir">4. Aquí se mostrará  tu mensaje Cifrado/Descifrado:</h3>
-<p id="salir1"></p>
-</div>
-</div>
-  <script type="text/javascript"src="index.js">
-    </script>
+  <script type="text/javascript" src="index.js"></script>   
   </body>
 </html>
